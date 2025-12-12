@@ -46,10 +46,6 @@ Output/
 └──
 Association-Rules.png
 
-│
-└──
-README.md
-
 
 
 ##  Business Problem
