@@ -1,7 +1,7 @@
 # AdventureWorksDW Market Basket Analysis
 
 This project is a beginner-friendly yet professional data analysis workflow built on the **AdventureWorksDW** dataset, a popular OLAP-style dataset commonly used for BI and analytics practice.  
-The goal is to simulate a real-world analytics scenario in **E-commerce / Retail** and **SaaS/Product** contexts by performing exploratory data analysis (EDA) and producing actionable business insights.
+The goal is to simulate a real-world analytics scenario in **E-commerce / Retail** contexts by performing exploratory data analysis (EDA) and producing actionable business insights.
 
 ---
 
