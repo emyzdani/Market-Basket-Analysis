@@ -1,0 +1,350 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+@font-face{
+	font-family: "woff";
+	src: url("../fonts/WebYekan.woff") format:("woff");
+}
+
+body{
+	background:#fcfcfc;
+	font-family: tahoma;
+	font-size: 14px ;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+.clearfix{
+	clear:both;
+}
+
+img{
+	max-width:100%;
+}
+
+a{
+	text-decoration:none;
+}
+
+.main{
+	width:1200px;
+	margin:0px auto;
+}
+
+.container{
+	width:1100px;
+	margin: 0px auto;
+}
+
+.half{
+	width: 50%;
+	float: right;
+	padding: 0 15px;
+}
+
+.pull_right{
+	float:right;
+}
+
+.pull_left{
+	float:left;
+}
+
+.area_title{
+	text-align: center;
+}
+.area_title h2{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.area_title p{
+	padding: 10px 0px;
+	font-size: 13px;
+}
+
+.masthead .top_menu{
+	width:100%;
+	float: right;
+	background:#182d37;
+}
+
+.masthead .top_menu ul li{
+	display:inline-block;
+
+}
+
+.masthead .top_menu ul li a{
+	padding: 10px;
+	display: block;
+	color: #647067;
+}
+
+.masthead .top_menu ul li a:hover,.masthead .main_menu ul li a:hover{
+	color: #8bc34a;
+}
+.masthead .main_menu{
+	width: 100%;
+	float: right;
+	font-size:14px;
+	background: #fff;
+}
+.masthead .main_menu ul li{
+	display: inline-block;
+}
+.masthead .main_menu ul li a{
+	display:block;
+	padding: 30px 10px;
+	color: #182d37;
+}
+
+.masthead .logo{
+	margin:15px auto 10px;
+}
+
+.gallery{
+	width:100%;
+	float:right;
+}
+
+.gallery .gallery_item{
+	width:25%;
+	display:inline;
+}
+
+.gallery .gallery_item img{
+	float:right;
+	width:25%;
+}
+
+
+.team{
+	width: 100%;
+	float: right;
+	padding: 50px 0px;
+	background: #fff;
+}
+
+.team .team_details {
+	width: 33.33%;
+	float: right;
+	padding: 15px;
+}
+.team .team_details img{
+	float: right;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+.team .team_details .team_content{
+	background: #f4f5f9;
+	padding: 25px;
+	line-height: 20px;
+	float: right;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.team .team_details .team_content h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #8bc34a;
+}
+.team .team_details .team_content p{
+	text-align: justify;
+	font-size: 13px;
+	color: #555;
+}
+.customer {
+	width:100%;
+	padding:50px 0px ;
+	float:right;
+	background:#f4f5f9;
+}
+.customer .item {
+	width: 33.33%;
+	float: right;
+	padding: 15px;
+	margin:20px auto 0px;
+	position: relative;
+}
+
+.customer .container .area_title h2{
+	font-size: 15px;
+}
+.customer .container .area_title p{
+	font-size: 17px;
+}
+.customer .item .item_text{
+	background: #aeb6b9 ;
+	padding:30px;
+	font-size:15px;
+	text-align:center;
+	line-height:25px;
+	border-radius:3px;
+	color:#fff;
+}
+.customer .item .active{
+	background:#8bc34a;
+}
+
+.customer .item .item_info{
+	margin: 10px auto;
+}
+.customer .item .item_info img{
+	border-radius: 50%;
+	float: right;
+	margin-left: 10px;
+
+}
+.customer .item .item_info span {
+	display: inline-block;
+	padding: 15px 0px 0px;
+}
+.customer .item .item_info span.name{
+	font-size: 16px;
+}
+
+.newsletter{
+	width: 100%;
+	float: right;
+	position: relative;
+	padding: 100px 0px;
+	background: url(../Images/gallery/8.jpg);
+	background-size: cover;
+	color: #fff;
+}
+.overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: rgba(139,195,74,0.5);
+
+}
+.newsletter .title_newsletter{
+	font-size: 20px;
+	margin: 20px auto 0px;
+	position: relative;
+}
+.newsletter form{
+	position: relative;
+}
+.newsletter input[type="email"]{
+	width: 320px;
+	height: 70px;
+	float: right;
+	padding: 20px;
+	border: 0;
+	font-family: tahoma;
+	font-size: 18px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.newsletter input[type="text"]:focus{
+	outline: 0;
+}
+.newsletter input[type="submit"]{
+	width: 200px;
+	height: 70px;
+	float: left;
+	padding: 20px;
+	background: #182d37;
+	border: 0;
+	color: #fff;
+	font: 15px tahoma;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	cursor: pointer;
+}
+.newsletter input[type="submit"]:hover{
+	background: #8BC34A;
+}
+
+.blog{
+	width: 100%;
+	float: right;
+	padding: 100px 0px;
+}
+.blog .blog_single{
+	width: 33.33%;
+	float: right;
+	padding: 0px 15px;
+}
+.blog .blog_single .blog_item{
+	padding: 15px 5px;
+	display: inline-block;
+}
+.blog .blog_single .blog_item h2{
+	margin-bottom: 10px;
+		font-size: 18px;
+}
+.blog .blog_single .blog_item h2 a{
+	color: #8bc34a;
+	margin-bottom: 10px;
+}
+.blog .blog_single .blog_item p{
+	text-align: justify;
+	line-height: 25px;
+	color: #555;
+	font-size: 13px;
+}
+.footer{
+	width: 100%;
+	float: right;
+	padding: 25px;
+	background: #182d37;
+	text-align: center;
+	color: #3a5f67;
+}
